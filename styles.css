@@ -1,23 +1,15 @@
 .images {
   display: grid;
   grid-template-columns: repeat(3, 190px);
+  grid-template-rows: repeat(2, 100px);
   gap: 10px;
   padding: 10px;
 }
-
 img {
   height: 100px;
   width: 190px;
   cursor: pointer;
-  border: 2px solid transparent;
 }
-
-img.selected {
-  border: 2px solid blue;
-}
-
 button {
   margin: 10px;
-  padding: 5px 15px;
-  font-size: 16px;
 }
